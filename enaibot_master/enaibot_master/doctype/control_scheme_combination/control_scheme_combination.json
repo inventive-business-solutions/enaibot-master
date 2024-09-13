@@ -1,0 +1,175 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 15:43:50.772134",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "scheme_no",
+  "main_sr_no",
+  "set_sr_no",
+  "type",
+  "starter",
+  "di",
+  "do1",
+  "ai",
+  "ao",
+  "mccb",
+  "mpcb",
+  "ammeter_3ct",
+  "current_transducer",
+  "olr",
+  "rating",
+  "lpbs",
+  "space_heater",
+  "eocr_eolr",
+  "dummy_column_1",
+  "dummy_column_2",
+  "dummy_column_3",
+  "dummy_column_4",
+  "dummy_column_5"
+ ],
+ "fields": [
+  {
+   "fieldname": "scheme_no",
+   "fieldtype": "Data",
+   "label": "Scheme No"
+  },
+  {
+   "fieldname": "main_sr_no",
+   "fieldtype": "Data",
+   "label": "Main Sr No"
+  },
+  {
+   "fieldname": "set_sr_no",
+   "fieldtype": "Data",
+   "label": "Set Sr No"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "starter",
+   "fieldtype": "Data",
+   "label": "Starter"
+  },
+  {
+   "fieldname": "di",
+   "fieldtype": "Data",
+   "label": "DI"
+  },
+  {
+   "fieldname": "do1",
+   "fieldtype": "Data",
+   "label": "DO1"
+  },
+  {
+   "fieldname": "ai",
+   "fieldtype": "Data",
+   "label": "AI"
+  },
+  {
+   "fieldname": "ao",
+   "fieldtype": "Data",
+   "label": "AO"
+  },
+  {
+   "fieldname": "mccb",
+   "fieldtype": "Data",
+   "label": "MCCB"
+  },
+  {
+   "fieldname": "mpcb",
+   "fieldtype": "Data",
+   "label": "MPCB"
+  },
+  {
+   "fieldname": "ammeter_3ct",
+   "fieldtype": "Data",
+   "label": "Ammeter 3CT"
+  },
+  {
+   "fieldname": "current_transducer",
+   "fieldtype": "Data",
+   "label": "Current Transducer"
+  },
+  {
+   "fieldname": "olr",
+   "fieldtype": "Data",
+   "label": "OLR"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Data",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "lpbs",
+   "fieldtype": "Data",
+   "label": "LPBS"
+  },
+  {
+   "fieldname": "space_heater",
+   "fieldtype": "Data",
+   "label": "Space Heater"
+  },
+  {
+   "fieldname": "eocr_eolr",
+   "fieldtype": "Data",
+   "label": "EOCR EOLR"
+  },
+  {
+   "fieldname": "dummy_column_1",
+   "fieldtype": "Data",
+   "label": "Dummy Column 1"
+  },
+  {
+   "fieldname": "dummy_column_2",
+   "fieldtype": "Data",
+   "label": "Dummy Column 2"
+  },
+  {
+   "fieldname": "dummy_column_3",
+   "fieldtype": "Data",
+   "label": "Dummy Column 3"
+  },
+  {
+   "fieldname": "dummy_column_4",
+   "fieldtype": "Data",
+   "label": "Dummy Column 4"
+  },
+  {
+   "fieldname": "dummy_column_5",
+   "fieldtype": "Data",
+   "label": "Dummy Column 5"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 15:54:40.879247",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Control Scheme Combination",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,211 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 14:56:37.934950",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "number_of_cores",
+  "type_of_insulation",
+  "conductor",
+  "voltage_grade",
+  "voltage_grade_unit",
+  "specific_requirement",
+  "color_scheme",
+  "cable_installation",
+  "future_space",
+  "motor_voltage_drop_starting",
+  "motor_voltage_drop_running",
+  "field_12",
+  "field_13",
+  "cable_tray_dry_area",
+  "cable_tray_wet_area",
+  "perforated_width",
+  "perforated_height",
+  "perforated_thickness",
+  "ladder_width",
+  "ladder_height",
+  "ladder_thickness",
+  "mesh_width",
+  "mesh_height",
+  "mesh_thickness",
+  "field_1",
+  "field_2",
+  "field_3",
+  "field_4",
+  "field_5"
+ ],
+ "fields": [
+  {
+   "fieldname": "number_of_cores",
+   "fieldtype": "Data",
+   "label": "Number of Cores"
+  },
+  {
+   "fieldname": "type_of_insulation",
+   "fieldtype": "Data",
+   "label": "Type of Insulation"
+  },
+  {
+   "fieldname": "conductor",
+   "fieldtype": "Data",
+   "label": "Conductor"
+  },
+  {
+   "fieldname": "voltage_grade",
+   "fieldtype": "Data",
+   "label": "Voltage Grade"
+  },
+  {
+   "fieldname": "voltage_grade_unit",
+   "fieldtype": "Data",
+   "label": "Voltage Grade Unit"
+  },
+  {
+   "fieldname": "specific_requirement",
+   "fieldtype": "Data",
+   "label": "Specific Requirement"
+  },
+  {
+   "fieldname": "color_scheme",
+   "fieldtype": "Data",
+   "label": "Color Scheme"
+  },
+  {
+   "fieldname": "cable_installation",
+   "fieldtype": "Data",
+   "label": "Cable Installation"
+  },
+  {
+   "fieldname": "future_space",
+   "fieldtype": "Data",
+   "label": "Future Space"
+  },
+  {
+   "fieldname": "motor_voltage_drop_starting",
+   "fieldtype": "Data",
+   "label": "Motor Voltage Drop Starting"
+  },
+  {
+   "fieldname": "motor_voltage_drop_running",
+   "fieldtype": "Data",
+   "label": "Motor Voltage Drop Running"
+  },
+  {
+   "fieldname": "field_12",
+   "fieldtype": "Data",
+   "label": "Field 12"
+  },
+  {
+   "fieldname": "field_13",
+   "fieldtype": "Data",
+   "label": "Field 13"
+  },
+  {
+   "fieldname": "cable_tray_dry_area",
+   "fieldtype": "Data",
+   "label": "Cable Tray Dry Area"
+  },
+  {
+   "fieldname": "cable_tray_wet_area",
+   "fieldtype": "Data",
+   "label": "Cable Tray Wet Area"
+  },
+  {
+   "fieldname": "perforated_width",
+   "fieldtype": "Data",
+   "label": "Perforated Width"
+  },
+  {
+   "fieldname": "perforated_height",
+   "fieldtype": "Data",
+   "label": "Perforated Height"
+  },
+  {
+   "fieldname": "perforated_thickness",
+   "fieldtype": "Data",
+   "label": "Perforated Thickness"
+  },
+  {
+   "fieldname": "ladder_width",
+   "fieldtype": "Data",
+   "label": "Ladder Width"
+  },
+  {
+   "fieldname": "ladder_height",
+   "fieldtype": "Data",
+   "label": "Ladder Height"
+  },
+  {
+   "fieldname": "ladder_thickness",
+   "fieldtype": "Data",
+   "label": "Ladder Thickness"
+  },
+  {
+   "fieldname": "mesh_width",
+   "fieldtype": "Data",
+   "label": "Mesh Width"
+  },
+  {
+   "fieldname": "mesh_height",
+   "fieldtype": "Data",
+   "label": "Mesh Height"
+  },
+  {
+   "fieldname": "mesh_thickness",
+   "fieldtype": "Data",
+   "label": "Mesh Thickness"
+  },
+  {
+   "fieldname": "field_1",
+   "fieldtype": "Data",
+   "label": "Field 1"
+  },
+  {
+   "fieldname": "field_2",
+   "fieldtype": "Data",
+   "label": "Field 2"
+  },
+  {
+   "fieldname": "field_3",
+   "fieldtype": "Data",
+   "label": "Field 3"
+  },
+  {
+   "fieldname": "field_4",
+   "fieldtype": "Data",
+   "label": "Field 4"
+  },
+  {
+   "fieldname": "field_5",
+   "fieldtype": "Data",
+   "label": "Field 5"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 15:13:23.323412",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Cable Tray",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

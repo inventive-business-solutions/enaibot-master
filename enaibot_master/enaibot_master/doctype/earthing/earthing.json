@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 17:22:14.674561",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "earthing_system",
+  "material_earth_strip",
+  "material_earth_pit",
+  "field_1",
+  "field_2",
+  "field_3",
+  "field_4",
+  "field_5"
+ ],
+ "fields": [
+  {
+   "fieldname": "earthing_system",
+   "fieldtype": "Data",
+   "label": "Earthing System"
+  },
+  {
+   "fieldname": "material_earth_strip",
+   "fieldtype": "Data",
+   "label": "Material Earth Strip"
+  },
+  {
+   "fieldname": "material_earth_pit",
+   "fieldtype": "Data",
+   "label": "Material Earth Pit"
+  },
+  {
+   "fieldname": "field_1",
+   "fieldtype": "Data",
+   "label": "Field 1"
+  },
+  {
+   "fieldname": "field_2",
+   "fieldtype": "Data",
+   "label": "Field 2"
+  },
+  {
+   "fieldname": "field_3",
+   "fieldtype": "Data",
+   "label": "Field 3"
+  },
+  {
+   "fieldname": "field_4",
+   "fieldtype": "Data",
+   "label": "Field 4"
+  },
+  {
+   "fieldname": "field_5",
+   "fieldtype": "Data",
+   "label": "Field 5"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 17:24:27.632139",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Earthing",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

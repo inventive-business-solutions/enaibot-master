@@ -1,0 +1,175 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 16:37:59.552737",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "number_of_feeder",
+  "control_transformer",
+  "control_bus_al",
+  "control_bus_cu",
+  "switchgear_type",
+  "ct_make",
+  "primary_mcb_cat",
+  "secondary_mcb_cat",
+  "primary_mcb_rat",
+  "secondary_mcb_rat",
+  "primary_fh_cat",
+  "secondary_fh_cat",
+  "primary_fh_rat",
+  "secondary_fh_rat",
+  "primary_fu_cat",
+  "secondary_fu_cat",
+  "primary_fu_rat",
+  "secondary_fu_rat",
+  "e_field_1",
+  "e_field_2",
+  "e_field_3",
+  "e_field_4",
+  "e_field_5"
+ ],
+ "fields": [
+  {
+   "fieldname": "number_of_feeder",
+   "fieldtype": "Data",
+   "label": "Number of Feeder"
+  },
+  {
+   "fieldname": "control_transformer",
+   "fieldtype": "Data",
+   "label": "Control Transformer"
+  },
+  {
+   "fieldname": "control_bus_al",
+   "fieldtype": "Data",
+   "label": "Control Bus AL"
+  },
+  {
+   "fieldname": "control_bus_cu",
+   "fieldtype": "Data",
+   "label": "Control Bus CU"
+  },
+  {
+   "fieldname": "switchgear_type",
+   "fieldtype": "Data",
+   "label": "Switchgear Type"
+  },
+  {
+   "fieldname": "ct_make",
+   "fieldtype": "Data",
+   "label": "CT Make"
+  },
+  {
+   "fieldname": "primary_mcb_cat",
+   "fieldtype": "Data",
+   "label": "Primary MCB Cat"
+  },
+  {
+   "fieldname": "primary_mcb_rat",
+   "fieldtype": "Data",
+   "label": "Primary MCB Rat"
+  },
+  {
+   "fieldname": "secondary_mcb_cat",
+   "fieldtype": "Data",
+   "label": "Secondary MCB Cat"
+  },
+  {
+   "fieldname": "secondary_mcb_rat",
+   "fieldtype": "Data",
+   "label": "Secondary MCB Rat"
+  },
+  {
+   "fieldname": "primary_fh_cat",
+   "fieldtype": "Data",
+   "label": "Primary FH Cat"
+  },
+  {
+   "fieldname": "primary_fh_rat",
+   "fieldtype": "Data",
+   "label": "Primary FH Rat"
+  },
+  {
+   "fieldname": "secondary_fh_cat",
+   "fieldtype": "Data",
+   "label": "Secondary FH Cat"
+  },
+  {
+   "fieldname": "secondary_fh_rat",
+   "fieldtype": "Data",
+   "label": "Secondary FH Rat"
+  },
+  {
+   "fieldname": "primary_fu_cat",
+   "fieldtype": "Data",
+   "label": "Primary FU Cat"
+  },
+  {
+   "fieldname": "primary_fu_rat",
+   "fieldtype": "Data",
+   "label": "Primary FU Rat"
+  },
+  {
+   "fieldname": "secondary_fu_cat",
+   "fieldtype": "Data",
+   "label": "Secondary FU Cat"
+  },
+  {
+   "fieldname": "secondary_fu_rat",
+   "fieldtype": "Data",
+   "label": "Secondary FU Rat"
+  },
+  {
+   "fieldname": "e_field_1",
+   "fieldtype": "Data",
+   "label": "E Field 1"
+  },
+  {
+   "fieldname": "e_field_2",
+   "fieldtype": "Data",
+   "label": "E Field 2"
+  },
+  {
+   "fieldname": "e_field_3",
+   "fieldtype": "Data",
+   "label": "E Field 3"
+  },
+  {
+   "fieldname": "e_field_4",
+   "fieldtype": "Data",
+   "label": "E Field 4"
+  },
+  {
+   "fieldname": "e_field_5",
+   "fieldtype": "Data",
+   "label": "E Field 5"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 17:20:43.743996",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Control Transformer",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

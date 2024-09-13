@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 13:55:00.408469",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "dbl_kw",
+  "dbl_hp",
+  "cable_moc",
+  "type",
+  "size_sq_mm",
+  "size_avg"
+ ],
+ "fields": [
+  {
+   "fieldname": "dbl_kw",
+   "fieldtype": "Data",
+   "label": "DBL KW"
+  },
+  {
+   "fieldname": "dbl_hp",
+   "fieldtype": "Data",
+   "label": "DBL HP"
+  },
+  {
+   "fieldname": "cable_moc",
+   "fieldtype": "Data",
+   "label": "Cable MOC"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "size_sq_mm",
+   "fieldtype": "Data",
+   "label": "Size Sq MM"
+  },
+  {
+   "fieldname": "size_avg",
+   "fieldtype": "Data",
+   "label": "Size Avg"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 13:58:33.522384",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Cable",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

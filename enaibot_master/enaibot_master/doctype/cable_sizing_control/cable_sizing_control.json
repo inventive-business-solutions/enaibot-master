@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 14:25:12.502887",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "str_moc",
+  "int_no_of_core",
+  "str_size_mm",
+  "str_make",
+  "int_run",
+  "str_od_mm",
+  "str_weight_of_cable",
+  "str_current_ground",
+  "str_current_air",
+  "str_cable_type",
+  "str_user_4",
+  "str_user_5"
+ ],
+ "fields": [
+  {
+   "fieldname": "str_moc",
+   "fieldtype": "Data",
+   "label": "STR MOC"
+  },
+  {
+   "fieldname": "int_no_of_core",
+   "fieldtype": "Data",
+   "label": "Int no of Core"
+  },
+  {
+   "fieldname": "str_size_mm",
+   "fieldtype": "Data",
+   "label": "STR Size MM"
+  },
+  {
+   "fieldname": "str_make",
+   "fieldtype": "Data",
+   "label": "STR Make"
+  },
+  {
+   "fieldname": "int_run",
+   "fieldtype": "Data",
+   "label": "Int Run"
+  },
+  {
+   "fieldname": "str_od_mm",
+   "fieldtype": "Data",
+   "label": "STR OD MM"
+  },
+  {
+   "fieldname": "str_weight_of_cable",
+   "fieldtype": "Data",
+   "label": "STR Weight of Cable"
+  },
+  {
+   "fieldname": "str_current_ground",
+   "fieldtype": "Data",
+   "label": "STR Current Ground"
+  },
+  {
+   "fieldname": "str_current_air",
+   "fieldtype": "Data",
+   "label": "STR Current Air"
+  },
+  {
+   "fieldname": "str_cable_type",
+   "fieldtype": "Data",
+   "label": "STR Cable Type"
+  },
+  {
+   "fieldname": "str_user_4",
+   "fieldtype": "Data",
+   "label": "STR User 4"
+  },
+  {
+   "fieldname": "str_user_5",
+   "fieldtype": "Data",
+   "label": "STR User 5"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 14:28:46.521652",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Cable Sizing Control",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

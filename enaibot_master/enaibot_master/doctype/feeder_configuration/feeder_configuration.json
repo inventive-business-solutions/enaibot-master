@@ -1,0 +1,307 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 17:36:28.766023",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "dol",
+  "star_delta",
+  "star_delta_ct",
+  "soft_starter",
+  "electronic_motor_protection_relay",
+  "electronic_motor_protection_relay_pole",
+  "control_selection",
+  "mcc_switchgear_type",
+  "pb_material_of_construction",
+  "pb_option_1",
+  "pb_option_2",
+  "push_button_in_mcc",
+  "field_2",
+  "field_3",
+  "field_4",
+  "field_5",
+  "wr_power_wiring",
+  "wr_control_wiring",
+  "wr_control_wiring_size",
+  "wr_24v_dc_wiring_size",
+  "wr_cable_insulation",
+  "wr_eerruel",
+  "wr_spare_terminal",
+  "pbc_start",
+  "pbc_stop",
+  "pbc_ess",
+  "pbc_speed",
+  "il_unning_open_energized_full",
+  "il_stopped_closed_non_energized_empty",
+  "il_fault_risk",
+  "fmi_type",
+  "fmi_enclosure",
+  "fmi_material",
+  "fmi_qty",
+  "ifm_isolator_color_shade",
+  "ifm_cable_entry",
+  "ipbs_type",
+  "ipbs_enclosure",
+  "ipbs_material",
+  "ipbs_qty",
+  "ipbs_isolator_color_shade",
+  "ipbs_cable_entry",
+  "ipbs_apfc_relay",
+  "pbc_local_rem_select_front_door_1",
+  "pbc_local_rem_select_front_door_2"
+ ],
+ "fields": [
+  {
+   "fieldname": "dol",
+   "fieldtype": "Data",
+   "label": "DOL"
+  },
+  {
+   "fieldname": "star_delta",
+   "fieldtype": "Data",
+   "label": "Star Delta"
+  },
+  {
+   "fieldname": "star_delta_ct",
+   "fieldtype": "Data",
+   "label": "Star Delta CT"
+  },
+  {
+   "fieldname": "soft_starter",
+   "fieldtype": "Data",
+   "label": "Soft Starter"
+  },
+  {
+   "fieldname": "electronic_motor_protection_relay",
+   "fieldtype": "Data",
+   "label": "Electronic Motor Protection Relay"
+  },
+  {
+   "fieldname": "electronic_motor_protection_relay_pole",
+   "fieldtype": "Data",
+   "label": "Electronic Motor Protection Relay Pole"
+  },
+  {
+   "fieldname": "control_selection",
+   "fieldtype": "Data",
+   "label": "Control Selection"
+  },
+  {
+   "fieldname": "mcc_switchgear_type",
+   "fieldtype": "Data",
+   "label": "MCC Switchgear Type"
+  },
+  {
+   "fieldname": "pb_material_of_construction",
+   "fieldtype": "Data",
+   "label": "PB Material of Construction"
+  },
+  {
+   "fieldname": "pb_option_1",
+   "fieldtype": "Data",
+   "label": "PB Option 1"
+  },
+  {
+   "fieldname": "pb_option_2",
+   "fieldtype": "Data",
+   "label": "PB Option 2"
+  },
+  {
+   "fieldname": "push_button_in_mcc",
+   "fieldtype": "Data",
+   "label": "Push Button in MCC"
+  },
+  {
+   "fieldname": "field_2",
+   "fieldtype": "Data",
+   "label": "Field 2"
+  },
+  {
+   "fieldname": "field_3",
+   "fieldtype": "Data",
+   "label": "Field 3"
+  },
+  {
+   "fieldname": "field_4",
+   "fieldtype": "Data",
+   "label": "Field 4"
+  },
+  {
+   "fieldname": "field_5",
+   "fieldtype": "Data",
+   "label": "Field 5"
+  },
+  {
+   "fieldname": "wr_power_wiring",
+   "fieldtype": "Data",
+   "label": "WR Power Wiring"
+  },
+  {
+   "fieldname": "wr_control_wiring",
+   "fieldtype": "Data",
+   "label": "WR Control Wiring"
+  },
+  {
+   "fieldname": "wr_control_wiring_size",
+   "fieldtype": "Data",
+   "label": "WR Control Wiring Size"
+  },
+  {
+   "fieldname": "wr_24v_dc_wiring_size",
+   "fieldtype": "Data",
+   "label": "WR 24V DC Wiring Size"
+  },
+  {
+   "fieldname": "wr_cable_insulation",
+   "fieldtype": "Data",
+   "label": "WR Cable Insulation"
+  },
+  {
+   "fieldname": "wr_eerruel",
+   "fieldtype": "Data",
+   "label": "WR EERRUEL"
+  },
+  {
+   "fieldname": "wr_spare_terminal",
+   "fieldtype": "Data",
+   "label": "WR Spare Terminal"
+  },
+  {
+   "fieldname": "pbc_start",
+   "fieldtype": "Data",
+   "label": "PBC Start"
+  },
+  {
+   "fieldname": "pbc_stop",
+   "fieldtype": "Data",
+   "label": "PBC Stop"
+  },
+  {
+   "fieldname": "pbc_ess",
+   "fieldtype": "Data",
+   "label": "PBC ESS"
+  },
+  {
+   "fieldname": "pbc_speed",
+   "fieldtype": "Data",
+   "label": "PBC Speed"
+  },
+  {
+   "fieldname": "il_unning_open_energized_full",
+   "fieldtype": "Data",
+   "label": "IL Unning Open Energized Full"
+  },
+  {
+   "fieldname": "il_stopped_closed_non_energized_empty",
+   "fieldtype": "Data",
+   "label": "IL Stopped Closed Non Energized Empty"
+  },
+  {
+   "fieldname": "il_fault_risk",
+   "fieldtype": "Data",
+   "label": "IL Fault Risk"
+  },
+  {
+   "fieldname": "fmi_type",
+   "fieldtype": "Data",
+   "label": "FMI Type"
+  },
+  {
+   "fieldname": "fmi_enclosure",
+   "fieldtype": "Data",
+   "label": "FMI Enclosure"
+  },
+  {
+   "fieldname": "fmi_material",
+   "fieldtype": "Data",
+   "label": "FMI Material"
+  },
+  {
+   "fieldname": "fmi_qty",
+   "fieldtype": "Data",
+   "label": "FMI Qty"
+  },
+  {
+   "fieldname": "ifm_isolator_color_shade",
+   "fieldtype": "Data",
+   "label": "IFM Isolator Color Shade"
+  },
+  {
+   "fieldname": "ifm_cable_entry",
+   "fieldtype": "Data",
+   "label": "IFM Cable Entry"
+  },
+  {
+   "fieldname": "ipbs_type",
+   "fieldtype": "Data",
+   "label": "IPBS Type"
+  },
+  {
+   "fieldname": "ipbs_enclosure",
+   "fieldtype": "Data",
+   "label": "IPBS Enclosure"
+  },
+  {
+   "fieldname": "ipbs_material",
+   "fieldtype": "Data",
+   "label": "IPBS Material"
+  },
+  {
+   "fieldname": "ipbs_qty",
+   "fieldtype": "Data",
+   "label": "IPBS Qty"
+  },
+  {
+   "fieldname": "ipbs_isolator_color_shade",
+   "fieldtype": "Data",
+   "label": "IPBS Isolator Color Shade"
+  },
+  {
+   "fieldname": "ipbs_cable_entry",
+   "fieldtype": "Data",
+   "label": "IPBS Cable Entry"
+  },
+  {
+   "fieldname": "ipbs_apfc_relay",
+   "fieldtype": "Data",
+   "label": "IPBS APFC Relay"
+  },
+  {
+   "fieldname": "pbc_local_rem_select_front_door_1",
+   "fieldtype": "Data",
+   "label": "PBC Local Rem Select Front Door 1"
+  },
+  {
+   "fieldname": "pbc_local_rem_select_front_door_2",
+   "fieldtype": "Data",
+   "label": "PBC Local Rem Select Front Door 2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 17:51:13.618586",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Feeder Configuration",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

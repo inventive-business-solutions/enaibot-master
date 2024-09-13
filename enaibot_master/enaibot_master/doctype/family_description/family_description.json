@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 17:28:18.947951",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "rec_num",
+  "family",
+  "desc_1",
+  "tbl_acc_nm"
+ ],
+ "fields": [
+  {
+   "fieldname": "rec_num",
+   "fieldtype": "Data",
+   "label": "Rec Num"
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Data",
+   "label": "Family"
+  },
+  {
+   "fieldname": "desc_1",
+   "fieldtype": "Data",
+   "label": "Desc 1"
+  },
+  {
+   "fieldname": "tbl_acc_nm",
+   "fieldtype": "Data",
+   "label": "TBL ACC NM"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 17:30:08.753958",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Family Description",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,133 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 14:00:38.868137",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "str_kw",
+  "str_moc",
+  "int_no_of_core",
+  "str_size_mm",
+  "str_make",
+  "int_runs",
+  "str_od_mm",
+  "str_weight_of_cable",
+  "str_current_ground",
+  "str_current_air",
+  "str_cable_type",
+  "str_user_4",
+  "str_user_5",
+  "dbl_x",
+  "dbl_r",
+  "dbl_area"
+ ],
+ "fields": [
+  {
+   "fieldname": "str_kw",
+   "fieldtype": "Data",
+   "label": "STR KW"
+  },
+  {
+   "fieldname": "str_moc",
+   "fieldtype": "Data",
+   "label": "STR MOC"
+  },
+  {
+   "fieldname": "int_no_of_core",
+   "fieldtype": "Data",
+   "label": "Int No of Core"
+  },
+  {
+   "fieldname": "str_size_mm",
+   "fieldtype": "Data",
+   "label": "STR Size MM"
+  },
+  {
+   "fieldname": "str_make",
+   "fieldtype": "Data",
+   "label": "STR Make"
+  },
+  {
+   "fieldname": "int_runs",
+   "fieldtype": "Data",
+   "label": "Int Runs"
+  },
+  {
+   "fieldname": "str_od_mm",
+   "fieldtype": "Data",
+   "label": "STR OD MM"
+  },
+  {
+   "fieldname": "str_weight_of_cable",
+   "fieldtype": "Data",
+   "label": "STR Weight of Cable"
+  },
+  {
+   "fieldname": "str_current_ground",
+   "fieldtype": "Data",
+   "label": "STR Current Ground"
+  },
+  {
+   "fieldname": "str_current_air",
+   "fieldtype": "Data",
+   "label": "STR Current Air"
+  },
+  {
+   "fieldname": "str_cable_type",
+   "fieldtype": "Data",
+   "label": "STR Cable Type"
+  },
+  {
+   "fieldname": "str_user_4",
+   "fieldtype": "Data",
+   "label": "STR User 4"
+  },
+  {
+   "fieldname": "str_user_5",
+   "fieldtype": "Data",
+   "label": "STR User 5"
+  },
+  {
+   "fieldname": "dbl_x",
+   "fieldtype": "Data",
+   "label": "DBL X"
+  },
+  {
+   "fieldname": "dbl_r",
+   "fieldtype": "Data",
+   "label": "DBL R"
+  },
+  {
+   "fieldname": "dbl_area",
+   "fieldtype": "Data",
+   "label": "DBL Area"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 14:10:45.767778",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Cable Sizing",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

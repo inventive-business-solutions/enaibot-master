@@ -1,0 +1,151 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 14:35:47.290911",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "kw",
+  "hp",
+  "motor_current_amps_il",
+  "motor_current_amps_ip",
+  "size",
+  "current_amps",
+  "approx_cable_od",
+  "type",
+  "et",
+  "metric",
+  "lug_size_mm_2",
+  "lugs_motor_side",
+  "lugs_panel_side",
+  "material",
+  "no_of_runs",
+  "no_of_runs_core",
+  "starter",
+  "voltage",
+  "times"
+ ],
+ "fields": [
+  {
+   "fieldname": "kw",
+   "fieldtype": "Data",
+   "label": "KW"
+  },
+  {
+   "fieldname": "hp",
+   "fieldtype": "Data",
+   "label": "HP"
+  },
+  {
+   "fieldname": "motor_current_amps_il",
+   "fieldtype": "Data",
+   "label": "Motor Current Amps IL"
+  },
+  {
+   "fieldname": "motor_current_amps_ip",
+   "fieldtype": "Data",
+   "label": "Motor Current Amps IP"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "label": "Size"
+  },
+  {
+   "fieldname": "current_amps",
+   "fieldtype": "Data",
+   "label": "Current Amps"
+  },
+  {
+   "fieldname": "approx_cable_od",
+   "fieldtype": "Data",
+   "label": "Approx Cable OD"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "et",
+   "fieldtype": "Data",
+   "label": "ET"
+  },
+  {
+   "fieldname": "metric",
+   "fieldtype": "Data",
+   "label": "Metric"
+  },
+  {
+   "fieldname": "lug_size_mm_2",
+   "fieldtype": "Data",
+   "label": "Lug Size MM 2"
+  },
+  {
+   "fieldname": "lugs_motor_side",
+   "fieldtype": "Data",
+   "label": "Lugs Motor Side"
+  },
+  {
+   "fieldname": "lugs_panel_side",
+   "fieldtype": "Data",
+   "label": "Lugs Panel Side"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material"
+  },
+  {
+   "fieldname": "no_of_runs",
+   "fieldtype": "Data",
+   "label": "No of Runs"
+  },
+  {
+   "fieldname": "no_of_runs_core",
+   "fieldtype": "Data",
+   "label": "No of Runs Core"
+  },
+  {
+   "fieldname": "starter",
+   "fieldtype": "Data",
+   "label": "Starter"
+  },
+  {
+   "fieldname": "voltage",
+   "fieldtype": "Data",
+   "label": "Voltage"
+  },
+  {
+   "fieldname": "times",
+   "fieldtype": "Data",
+   "label": "Times"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 14:42:10.076144",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Cable Sizing Heating Metadata",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

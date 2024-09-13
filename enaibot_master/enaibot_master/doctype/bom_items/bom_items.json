@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 13:43:54.181823",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "str_bom_items",
+  "str_make",
+  "str_control_volt",
+  "str_catalogue_num",
+  "str_extra_1",
+  "str_extra_2",
+  "str_extra_3"
+ ],
+ "fields": [
+  {
+   "fieldname": "str_bom_items",
+   "fieldtype": "Data",
+   "label": "STR BOM Items"
+  },
+  {
+   "fieldname": "str_make",
+   "fieldtype": "Data",
+   "label": "STR Make"
+  },
+  {
+   "fieldname": "str_control_volt",
+   "fieldtype": "Data",
+   "label": "STR Control Volt"
+  },
+  {
+   "fieldname": "str_catalogue_num",
+   "fieldtype": "Data",
+   "label": "STR Catalogue Num"
+  },
+  {
+   "fieldname": "str_extra_1",
+   "fieldtype": "Data",
+   "label": "STR Extra 1"
+  },
+  {
+   "fieldname": "str_extra_2",
+   "fieldtype": "Data",
+   "label": "STR Extra 2"
+  },
+  {
+   "fieldname": "str_extra_3",
+   "fieldtype": "Data",
+   "label": "STR Extra 3"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 13:52:34.840241",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "BOM Items",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

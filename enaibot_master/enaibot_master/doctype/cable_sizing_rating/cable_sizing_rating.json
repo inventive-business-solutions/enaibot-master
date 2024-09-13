@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 14:45:24.625157",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "str_make",
+  "str_starter_type",
+  "dbl_hp",
+  "dbl_kw",
+  "str_mpr_rating",
+  "str_ct_rating",
+  "str_ammeter_rating"
+ ],
+ "fields": [
+  {
+   "fieldname": "str_make",
+   "fieldtype": "Data",
+   "label": "STR Make"
+  },
+  {
+   "fieldname": "str_starter_type",
+   "fieldtype": "Data",
+   "label": "STR Starter Type"
+  },
+  {
+   "fieldname": "dbl_hp",
+   "fieldtype": "Data",
+   "label": "DBL HP"
+  },
+  {
+   "fieldname": "dbl_kw",
+   "fieldtype": "Data",
+   "label": "DBL KW"
+  },
+  {
+   "fieldname": "str_mpr_rating",
+   "fieldtype": "Data",
+   "label": "STR MPR Rating"
+  },
+  {
+   "fieldname": "str_ct_rating",
+   "fieldtype": "Data",
+   "label": "STR CT Rating"
+  },
+  {
+   "fieldname": "str_ammeter_rating",
+   "fieldtype": "Data",
+   "label": "STR Ammeter Rating"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 14:54:51.191489",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Cable Sizing Rating",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

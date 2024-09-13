@@ -1,0 +1,133 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-13 13:31:26.872129",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "main_catalogue",
+  "accessory_catalogue",
+  "family_name",
+  "c_type",
+  "subtype",
+  "group_1",
+  "manufacturer",
+  "description",
+  "series",
+  "type",
+  "rating",
+  "block_nm",
+  "mounting",
+  "voltage",
+  "rating_cb",
+  "rating_fu"
+ ],
+ "fields": [
+  {
+   "fieldname": "main_catalogue",
+   "fieldtype": "Data",
+   "label": "Main Catalogue"
+  },
+  {
+   "fieldname": "accessory_catalogue",
+   "fieldtype": "Data",
+   "label": "Accessory Catalogue"
+  },
+  {
+   "fieldname": "family_name",
+   "fieldtype": "Data",
+   "label": "Family Name"
+  },
+  {
+   "fieldname": "c_type",
+   "fieldtype": "Data",
+   "label": "C Type"
+  },
+  {
+   "fieldname": "subtype",
+   "fieldtype": "Data",
+   "label": "Subtype"
+  },
+  {
+   "fieldname": "group_1",
+   "fieldtype": "Data",
+   "label": "Group 1"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Data",
+   "label": "Manufacturer"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "series",
+   "fieldtype": "Data",
+   "label": "Series"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Data",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "block_nm",
+   "fieldtype": "Data",
+   "label": "Block NM"
+  },
+  {
+   "fieldname": "mounting",
+   "fieldtype": "Data",
+   "label": "Mounting"
+  },
+  {
+   "fieldname": "voltage",
+   "fieldtype": "Data",
+   "label": "Voltage"
+  },
+  {
+   "fieldname": "rating_cb",
+   "fieldtype": "Data",
+   "label": "Rating CB"
+  },
+  {
+   "fieldname": "rating_fu",
+   "fieldtype": "Data",
+   "label": "Rating FU"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-13 13:45:38.570279",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Accessory Group 3",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
