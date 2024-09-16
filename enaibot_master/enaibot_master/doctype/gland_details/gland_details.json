@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 11:18:00.466304",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "gland_make",
+  "g_catalogue",
+  "cable_subtype",
+  "cable_type",
+  "cable_od_mn",
+  "type_of_gland",
+  "subtype_of_gland",
+  "moc",
+  "nipple_entry",
+  "panel_hole",
+  "bsc_thread",
+  "npt_thread",
+  "iso",
+  "cable_od_mx"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "gland_make",
+   "fieldtype": "Data",
+   "label": "Gland Make"
+  },
+  {
+   "fieldname": "g_catalogue",
+   "fieldtype": "Data",
+   "label": "G Catalogue"
+  },
+  {
+   "fieldname": "cable_subtype",
+   "fieldtype": "Data",
+   "label": "Cable Subtype"
+  },
+  {
+   "fieldname": "cable_type",
+   "fieldtype": "Data",
+   "label": "Cable Type"
+  },
+  {
+   "fieldname": "cable_od_mn",
+   "fieldtype": "Data",
+   "label": "Cable OD MN"
+  },
+  {
+   "fieldname": "type_of_gland",
+   "fieldtype": "Data",
+   "label": "Type Of Gland"
+  },
+  {
+   "fieldname": "subtype_of_gland",
+   "fieldtype": "Data",
+   "label": "Subtype Of Gland"
+  },
+  {
+   "fieldname": "moc",
+   "fieldtype": "Data",
+   "label": "Moc"
+  },
+  {
+   "fieldname": "nipple_entry",
+   "fieldtype": "Data",
+   "label": "Nipple Entry"
+  },
+  {
+   "fieldname": "panel_hole",
+   "fieldtype": "Data",
+   "label": "Panel Hole"
+  },
+  {
+   "fieldname": "bsc_thread",
+   "fieldtype": "Data",
+   "label": "BSC Thread"
+  },
+  {
+   "fieldname": "npt_thread",
+   "fieldtype": "Data",
+   "label": "NPT Thread"
+  },
+  {
+   "fieldname": "iso",
+   "fieldtype": "Data",
+   "label": "ISO"
+  },
+  {
+   "fieldname": "cable_od_mx",
+   "fieldtype": "Data",
+   "label": "Cable OD MX"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 11:20:31.684930",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Gland Details",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
