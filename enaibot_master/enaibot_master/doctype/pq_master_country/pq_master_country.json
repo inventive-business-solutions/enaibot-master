@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 14:16:27.239408",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "control_supply",
+  "country",
+  "frequency",
+  "mains_supply",
+  "no_of_wires",
+  "id",
+  "plug_type",
+  "created_date",
+  "ms_frequency",
+  "mains_supply_phase",
+  "control_supply_phase"
+ ],
+ "fields": [
+  {
+   "fieldname": "control_supply",
+   "fieldtype": "Data",
+   "label": "Control Supply"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Data",
+   "label": "Frequency"
+  },
+  {
+   "fieldname": "mains_supply",
+   "fieldtype": "Data",
+   "label": "Mains Supply"
+  },
+  {
+   "fieldname": "no_of_wires",
+   "fieldtype": "Data",
+   "label": "No of Wires"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "plug_type",
+   "fieldtype": "Data",
+   "label": "Plug Type"
+  },
+  {
+   "fieldname": "created_date",
+   "fieldtype": "Date",
+   "label": "Created Date"
+  },
+  {
+   "fieldname": "ms_frequency",
+   "fieldtype": "Data",
+   "label": "Ms Frequency"
+  },
+  {
+   "fieldname": "mains_supply_phase",
+   "fieldtype": "Data",
+   "label": "Mains Supply Phase"
+  },
+  {
+   "fieldname": "control_supply_phase",
+   "fieldtype": "Data",
+   "label": "Control Supply Phase"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 14:18:47.868163",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "PQ Master Country",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

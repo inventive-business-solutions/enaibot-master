@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 14:19:47.047541",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "recnum",
+  "family",
+  "desc1",
+  "tblacc_nm",
+  "id"
+ ],
+ "fields": [
+  {
+   "fieldname": "recnum",
+   "fieldtype": "Int",
+   "label": "Recnum"
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Data",
+   "label": "Family"
+  },
+  {
+   "fieldname": "desc1",
+   "fieldtype": "Data",
+   "label": "Desc1"
+  },
+  {
+   "fieldname": "tblacc_nm",
+   "fieldtype": "Data",
+   "label": "Tblacc nm"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "id",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 14:20:54.295108",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "PQ Master Family Desc",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
