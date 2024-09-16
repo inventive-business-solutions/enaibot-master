@@ -150,13 +150,13 @@
   },
   {
    "fieldname": "id",
-   "fieldtype": "Data",
+   "fieldtype": "Int",
    "label": "id"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-16 10:56:53.364387",
+ "modified": "2024-09-16 11:54:21.715681",
  "modified_by": "Administrator",
  "module": "Enaibot Master",
  "name": "Fu",

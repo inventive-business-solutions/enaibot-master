@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:sr_no",
+ "creation": "2024-09-16 12:11:43.654926",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sr_no",
+  "type_of_ipbs",
+  "start_push_button",
+  "emergency_stop_push_button",
+  "start_on_indication_lamp",
+  "stop_off_indication_lamp",
+  "local_remote_selector_switch",
+  "speed_increase_decrease_push_button",
+  "analogue_ammeter_amp",
+  "analogue_rpm_meter_ma",
+  "ics",
+  "ics_inc_dec",
+  "ics_rpm",
+  "diecast_moc",
+  "frp_moc",
+  "crca_moc",
+  "ss304_moc"
+ ],
+ "fields": [
+  {
+   "fieldname": "sr_no",
+   "fieldtype": "Int",
+   "label": "Sr No",
+   "unique": 1
+  },
+  {
+   "fieldname": "type_of_ipbs",
+   "fieldtype": "Data",
+   "label": "Type of IPBS"
+  },
+  {
+   "fieldname": "start_push_button",
+   "fieldtype": "Data",
+   "label": "Start Push Button"
+  },
+  {
+   "fieldname": "emergency_stop_push_button",
+   "fieldtype": "Data",
+   "label": "Emergency Stop Push Button"
+  },
+  {
+   "fieldname": "start_on_indication_lamp",
+   "fieldtype": "Data",
+   "label": "Start on Indication Lamp"
+  },
+  {
+   "fieldname": "stop_off_indication_lamp",
+   "fieldtype": "Data",
+   "label": "Stop off Indication Lamp"
+  },
+  {
+   "fieldname": "local_remote_selector_switch",
+   "fieldtype": "Data",
+   "label": "Local Remote Selector Switch"
+  },
+  {
+   "fieldname": "speed_increase_decrease_push_button",
+   "fieldtype": "Data",
+   "label": "Speed Increase Decrease Push Button"
+  },
+  {
+   "fieldname": "analogue_ammeter_amp",
+   "fieldtype": "Data",
+   "label": "Analogue Ammeter Amp"
+  },
+  {
+   "fieldname": "analogue_rpm_meter_ma",
+   "fieldtype": "Data",
+   "label": "Analogue Rpm Meter Ma"
+  },
+  {
+   "fieldname": "ics",
+   "fieldtype": "Data",
+   "label": "ICS"
+  },
+  {
+   "fieldname": "ics_inc_dec",
+   "fieldtype": "Data",
+   "label": "ICS Inc Dec"
+  },
+  {
+   "fieldname": "ics_rpm",
+   "fieldtype": "Data",
+   "label": "ICS Rpm"
+  },
+  {
+   "fieldname": "diecast_moc",
+   "fieldtype": "Data",
+   "label": "Diecast Moc"
+  },
+  {
+   "fieldname": "frp_moc",
+   "fieldtype": "Data",
+   "label": "Frp Moc"
+  },
+  {
+   "fieldname": "crca_moc",
+   "fieldtype": "Data",
+   "label": "Crca Moc"
+  },
+  {
+   "fieldname": "ss304_moc",
+   "fieldtype": "Data",
+   "label": "Ss304 Moc"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 12:16:57.220349",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Ipbs Database Spg",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

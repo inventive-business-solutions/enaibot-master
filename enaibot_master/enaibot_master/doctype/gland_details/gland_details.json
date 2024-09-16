@@ -25,7 +25,7 @@
  "fields": [
   {
    "fieldname": "id",
-   "fieldtype": "Data",
+   "fieldtype": "Int",
    "in_list_view": 1,
    "label": "id",
    "reqd": 1,
@@ -104,7 +104,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-16 11:20:31.684930",
+ "modified": "2024-09-16 11:54:01.495164",
  "modified_by": "Administrator",
  "module": "Enaibot Master",
  "name": "Gland Details",
