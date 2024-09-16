@@ -1,0 +1,176 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 14:50:19.318123",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "str_make",
+  "str_sg_select",
+  "str_starter_type",
+  "dblhp",
+  "dblkw",
+  "dbcv",
+  "dblvoltage",
+  "dblfla",
+  "str_fuse",
+  "str_breaker",
+  "str_fuse_holder",
+  "str_contractor_main_delta",
+  "str_contractor_star",
+  "str_overload_relay",
+  "id",
+  "unit_1",
+  "unit_2",
+  "unit_3",
+  "unit_4",
+  "unit_5",
+  "section",
+  "unit_6",
+  "unit_7"
+ ],
+ "fields": [
+  {
+   "fieldname": "str_make",
+   "fieldtype": "Data",
+   "label": "Str Make"
+  },
+  {
+   "fieldname": "str_sg_select",
+   "fieldtype": "Data",
+   "label": "Str Sg Select"
+  },
+  {
+   "fieldname": "str_starter_type",
+   "fieldtype": "Data",
+   "label": "Str Starter Type"
+  },
+  {
+   "fieldname": "dblhp",
+   "fieldtype": "Int",
+   "label": "dblhp"
+  },
+  {
+   "fieldname": "dblkw",
+   "fieldtype": "Int",
+   "label": "dblkw"
+  },
+  {
+   "fieldname": "dbcv",
+   "fieldtype": "Int",
+   "label": "dbcv"
+  },
+  {
+   "fieldname": "dblvoltage",
+   "fieldtype": "Int",
+   "label": "dblVoltage"
+  },
+  {
+   "fieldname": "dblfla",
+   "fieldtype": "Int",
+   "label": "dblfla"
+  },
+  {
+   "fieldname": "str_fuse",
+   "fieldtype": "Data",
+   "label": "Str Fuse"
+  },
+  {
+   "fieldname": "str_breaker",
+   "fieldtype": "Data",
+   "label": "Str Breaker"
+  },
+  {
+   "fieldname": "str_fuse_holder",
+   "fieldtype": "Data",
+   "label": "Str Fuse Holder"
+  },
+  {
+   "fieldname": "str_contractor_main_delta",
+   "fieldtype": "Data",
+   "label": "Str Contractor Main Delta"
+  },
+  {
+   "fieldname": "str_contractor_star",
+   "fieldtype": "Data",
+   "label": "Str Contractor Star"
+  },
+  {
+   "fieldname": "str_overload_relay",
+   "fieldtype": "Data",
+   "label": "Str Overload Relay"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "id",
+   "unique": 1
+  },
+  {
+   "fieldname": "unit_1",
+   "fieldtype": "Data",
+   "label": "Unit 1"
+  },
+  {
+   "fieldname": "unit_2",
+   "fieldtype": "Data",
+   "label": "Unit 2"
+  },
+  {
+   "fieldname": "unit_3",
+   "fieldtype": "Data",
+   "label": "Unit 3"
+  },
+  {
+   "fieldname": "unit_4",
+   "fieldtype": "Data",
+   "label": "Unit 4"
+  },
+  {
+   "fieldname": "unit_5",
+   "fieldtype": "Data",
+   "label": "Unit 5"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section"
+  },
+  {
+   "fieldname": "unit_6",
+   "fieldtype": "Data",
+   "label": "Unit 6"
+  },
+  {
+   "fieldname": "unit_7",
+   "fieldtype": "Data",
+   "label": "Unit 7"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 14:57:09.802633",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Switch Gear Wws Spg With Mcb",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
