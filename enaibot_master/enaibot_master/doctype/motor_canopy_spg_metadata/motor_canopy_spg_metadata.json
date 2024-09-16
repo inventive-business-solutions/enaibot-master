@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 12:38:27.796166",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "part_code",
+  "frame_size",
+  "description",
+  "moc"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "part_code",
+   "fieldtype": "Data",
+   "label": "Part Code"
+  },
+  {
+   "fieldname": "frame_size",
+   "fieldtype": "Data",
+   "label": "Frame Size"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "moc",
+   "fieldtype": "Data",
+   "label": "Moc"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 12:39:24.191678",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Motor Canopy Spg Metadata",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,148 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 12:53:46.132901",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "no_of_poles",
+  "rated_kw",
+  "frame_size",
+  "full_load_speed",
+  "full_load_current",
+  "breakway_fl_current_ie1",
+  "breakway_fl_current_ie2",
+  "breakway_fl_current_ie3",
+  "normal_effeciency_ie1",
+  "normal_effeciency_ie2",
+  "normal_effeciency_ie3",
+  "normal_effeciency_ie4",
+  "cost_ie1",
+  "cost_ie2",
+  "cost_ie3",
+  "cost_ie4",
+  "breakway_fl_torque"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "no_of_poles",
+   "fieldtype": "Int",
+   "label": "No of Poles"
+  },
+  {
+   "fieldname": "rated_kw",
+   "fieldtype": "Int",
+   "label": "Rated Kw"
+  },
+  {
+   "fieldname": "frame_size",
+   "fieldtype": "Data",
+   "label": "Frame Size"
+  },
+  {
+   "fieldname": "full_load_speed",
+   "fieldtype": "Int",
+   "label": "Full Load Speed"
+  },
+  {
+   "fieldname": "full_load_current",
+   "fieldtype": "Int",
+   "label": "Full Load Current"
+  },
+  {
+   "fieldname": "breakway_fl_current_ie1",
+   "fieldtype": "Int",
+   "label": "Breakway Fl Current ie1"
+  },
+  {
+   "fieldname": "breakway_fl_current_ie2",
+   "fieldtype": "Int",
+   "label": "Breakway Fl Current ie2"
+  },
+  {
+   "fieldname": "breakway_fl_current_ie3",
+   "fieldtype": "Int",
+   "label": "Breakway Fl Current ie3"
+  },
+  {
+   "fieldname": "normal_effeciency_ie1",
+   "fieldtype": "Int",
+   "label": "Normal Effeciency ie1"
+  },
+  {
+   "fieldname": "normal_effeciency_ie2",
+   "fieldtype": "Int",
+   "label": "Normal Effeciency ie2"
+  },
+  {
+   "fieldname": "normal_effeciency_ie3",
+   "fieldtype": "Int",
+   "label": "Normal Effeciency ie3"
+  },
+  {
+   "fieldname": "normal_effeciency_ie4",
+   "fieldtype": "Int",
+   "label": "Normal Effeciency ie4"
+  },
+  {
+   "fieldname": "cost_ie1",
+   "fieldtype": "Int",
+   "label": "Cost ie1"
+  },
+  {
+   "fieldname": "cost_ie2",
+   "fieldtype": "Int",
+   "label": "Cost ie2"
+  },
+  {
+   "fieldname": "cost_ie3",
+   "fieldtype": "Int",
+   "label": "Cost ie3"
+  },
+  {
+   "fieldname": "cost_ie4",
+   "fieldtype": "Int",
+   "label": "Cost ie4"
+  },
+  {
+   "fieldname": "breakway_fl_torque",
+   "fieldtype": "Int",
+   "label": "Breakway Fl torque"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 13:57:36.890461",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Motor Efficiency",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
