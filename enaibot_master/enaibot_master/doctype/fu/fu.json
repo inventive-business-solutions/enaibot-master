@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:catalogue",
+ "creation": "2024-09-16 10:45:00.629235",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "catalogue",
+  "manufacturer",
+  "description",
+  "type",
+  "voltage",
+  "rating",
+  "miscellaneous_2",
+  "assembly_code",
+  "assembly_list",
+  "assembly_quantity",
+  "user_1",
+  "user_2",
+  "user_3",
+  "text_value",
+  "web_link",
+  "wdblknam",
+  "symbol_2d",
+  "symbol_3d",
+  "recnum",
+  "block_nm",
+  "series",
+  "current_rating",
+  "id"
+ ],
+ "fields": [
+  {
+   "fieldname": "catalogue",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Catalogue",
+   "not_nullable": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Manufacturer",
+   "not_nullable": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "voltage",
+   "fieldtype": "Data",
+   "label": "Voltage"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Data",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "miscellaneous_2",
+   "fieldtype": "Data",
+   "label": "Miscellaneous_2"
+  },
+  {
+   "fieldname": "assembly_code",
+   "fieldtype": "Data",
+   "label": "Assembly_Code"
+  },
+  {
+   "fieldname": "assembly_list",
+   "fieldtype": "Data",
+   "label": "Assembly_List"
+  },
+  {
+   "fieldname": "assembly_quantity",
+   "fieldtype": "Data",
+   "label": "Assembly_Quantity"
+  },
+  {
+   "fieldname": "user_1",
+   "fieldtype": "Data",
+   "label": "User_1"
+  },
+  {
+   "fieldname": "user_2",
+   "fieldtype": "Data",
+   "label": "User_2"
+  },
+  {
+   "fieldname": "user_3",
+   "fieldtype": "Data",
+   "label": "User_3"
+  },
+  {
+   "fieldname": "text_value",
+   "fieldtype": "Data",
+   "label": "Text_value"
+  },
+  {
+   "fieldname": "web_link",
+   "fieldtype": "Data",
+   "label": "Web_link"
+  },
+  {
+   "fieldname": "wdblknam",
+   "fieldtype": "Data",
+   "label": "wdblknam"
+  },
+  {
+   "fieldname": "symbol_2d",
+   "fieldtype": "Data",
+   "label": "Symbol_2D"
+  },
+  {
+   "fieldname": "symbol_3d",
+   "fieldtype": "Data",
+   "label": "Symbol_3D"
+  },
+  {
+   "fieldname": "recnum",
+   "fieldtype": "Data",
+   "label": "Recnum"
+  },
+  {
+   "fieldname": "block_nm",
+   "fieldtype": "Data",
+   "label": "Block_nm"
+  },
+  {
+   "fieldname": "series",
+   "fieldtype": "Data",
+   "label": "Series"
+  },
+  {
+   "fieldname": "current_rating",
+   "fieldtype": "Data",
+   "label": "Current_rating"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "id"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 11:54:21.715681",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Fu",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

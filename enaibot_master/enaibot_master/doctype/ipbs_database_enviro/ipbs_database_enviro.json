@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:sr_no",
+ "creation": "2024-09-16 11:56:32.354657",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sr_no",
+  "type_of_ipbs",
+  "start_push_button",
+  "emergency_stop_push_button",
+  "start_on_indication_lamp",
+  "local_remote_selector_switch",
+  "speed_increase_decrease_push_button",
+  "analog_ammeter_amp",
+  "analog_rpm_meter_ma",
+  "ics",
+  "ics_inc_dec",
+  "ics_rpm"
+ ],
+ "fields": [
+  {
+   "fieldname": "sr_no",
+   "fieldtype": "Int",
+   "label": "Sr. No. ",
+   "unique": 1
+  },
+  {
+   "fieldname": "type_of_ipbs",
+   "fieldtype": "Data",
+   "label": "Type of IPBS"
+  },
+  {
+   "fieldname": "start_push_button",
+   "fieldtype": "Data",
+   "label": "Start Push Button"
+  },
+  {
+   "fieldname": "emergency_stop_push_button",
+   "fieldtype": "Data",
+   "label": "Emergency Stop Push Button"
+  },
+  {
+   "fieldname": "start_on_indication_lamp",
+   "fieldtype": "Data",
+   "label": "Start on Indication Lamp"
+  },
+  {
+   "fieldname": "local_remote_selector_switch",
+   "fieldtype": "Data",
+   "label": "Local Remote Selector Switch"
+  },
+  {
+   "fieldname": "speed_increase_decrease_push_button",
+   "fieldtype": "Data",
+   "label": "Speed Increase Decrease Push Button"
+  },
+  {
+   "fieldname": "analog_ammeter_amp",
+   "fieldtype": "Data",
+   "label": "Analog Ammeter Amp"
+  },
+  {
+   "fieldname": "analog_rpm_meter_ma",
+   "fieldtype": "Data",
+   "label": "Analog Rpm Meter MA"
+  },
+  {
+   "fieldname": "ics",
+   "fieldtype": "Data",
+   "label": "ICS"
+  },
+  {
+   "fieldname": "ics_inc_dec",
+   "fieldtype": "Data",
+   "label": "ICS Inc Dec"
+  },
+  {
+   "fieldname": "ics_rpm",
+   "fieldtype": "Data",
+   "label": "ICS Rpm"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 11:59:48.926697",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Ipbs Database Enviro",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

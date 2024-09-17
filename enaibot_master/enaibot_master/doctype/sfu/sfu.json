@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 14:24:31.775751",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "make",
+  "amp",
+  "sdf",
+  "pole",
+  "fuse",
+  "series",
+  "unit_1",
+  "unit_2",
+  "unit_3",
+  "unit_4",
+  "unit_5",
+  "unit_6",
+  "unit_7",
+  "id"
+ ],
+ "fields": [
+  {
+   "fieldname": "make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "amp",
+   "fieldtype": "Data",
+   "label": "Amp"
+  },
+  {
+   "fieldname": "sdf",
+   "fieldtype": "Data",
+   "label": "SDF"
+  },
+  {
+   "fieldname": "pole",
+   "fieldtype": "Data",
+   "label": "Pole"
+  },
+  {
+   "fieldname": "fuse",
+   "fieldtype": "Data",
+   "label": "Fuse"
+  },
+  {
+   "fieldname": "series",
+   "fieldtype": "Data",
+   "label": "Series"
+  },
+  {
+   "fieldname": "unit_1",
+   "fieldtype": "Data",
+   "label": "Unit 1"
+  },
+  {
+   "fieldname": "unit_2",
+   "fieldtype": "Data",
+   "label": "Unit 2"
+  },
+  {
+   "fieldname": "unit_3",
+   "fieldtype": "Data",
+   "label": "Unit 3"
+  },
+  {
+   "fieldname": "unit_4",
+   "fieldtype": "Data",
+   "label": "Unit 4"
+  },
+  {
+   "fieldname": "unit_5",
+   "fieldtype": "Data",
+   "label": "Unit 5"
+  },
+  {
+   "fieldname": "unit_6",
+   "fieldtype": "Data",
+   "label": "Unit 6"
+  },
+  {
+   "fieldname": "unit_7",
+   "fieldtype": "Data",
+   "label": "Unit 7"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "id",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 14:26:44.504617",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "SFU",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,190 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 14:05:16.704239",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "location",
+  "incomer_other_source_feeder",
+  "synchronizing",
+  "pcc_incomer_upto_and_including",
+  "pcc_incomer_no_of_poles",
+  "pcc_incomer_type",
+  "pcc_incomer_including_and_above",
+  "pcc_analog",
+  "pcc_digital",
+  "communication_protocol",
+  "pcc_outgoing_upto_and_including",
+  "pcc_outgoing_no_of_poles",
+  "pcc_outgoing_type",
+  "pcc_outgoing_including_and_above",
+  "sheet_steel_material",
+  "sheet_steel_thickness_panel_frame",
+  "pcc_construction_1",
+  "pcc_construction_2",
+  "pcc_construction_3",
+  "degree_of_enclosure_protection",
+  "cable_entry",
+  "painting",
+  "finish",
+  "colour_shade"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "incomer_other_source_feeder",
+   "fieldtype": "Data",
+   "label": "Incomer Other Source Feeder"
+  },
+  {
+   "fieldname": "synchronizing",
+   "fieldtype": "Data",
+   "label": "Synchronizing"
+  },
+  {
+   "fieldname": "pcc_incomer_upto_and_including",
+   "fieldtype": "Int",
+   "label": "PCC Incomer Upto and Including"
+  },
+  {
+   "fieldname": "pcc_incomer_no_of_poles",
+   "fieldtype": "Int",
+   "label": "PCC Incomer No of Poles"
+  },
+  {
+   "fieldname": "pcc_incomer_type",
+   "fieldtype": "Data",
+   "label": "PCC Incomer Type"
+  },
+  {
+   "fieldname": "pcc_incomer_including_and_above",
+   "fieldtype": "Int",
+   "label": "PCC Incomer Including and Above"
+  },
+  {
+   "fieldname": "pcc_analog",
+   "fieldtype": "Data",
+   "label": "PCC Analog"
+  },
+  {
+   "fieldname": "pcc_digital",
+   "fieldtype": "Data",
+   "label": "PCC Digital"
+  },
+  {
+   "fieldname": "communication_protocol",
+   "fieldtype": "Data",
+   "label": "Communication Protocol"
+  },
+  {
+   "fieldname": "pcc_outgoing_upto_and_including",
+   "fieldtype": "Data",
+   "label": "PCC Outgoing Upto and Including"
+  },
+  {
+   "fieldname": "pcc_outgoing_no_of_poles",
+   "fieldtype": "Int",
+   "label": "PCC Outgoing No of Poles"
+  },
+  {
+   "fieldname": "pcc_outgoing_type",
+   "fieldtype": "Data",
+   "label": "PCC Outgoing Type"
+  },
+  {
+   "fieldname": "pcc_outgoing_including_and_above",
+   "fieldtype": "Int",
+   "label": "PCC Outgoing Including and Above "
+  },
+  {
+   "fieldname": "sheet_steel_material",
+   "fieldtype": "Data",
+   "label": "Sheet Steel Material"
+  },
+  {
+   "fieldname": "sheet_steel_thickness_panel_frame",
+   "fieldtype": "Data",
+   "label": "Sheet Steel Thickness Panel Frame"
+  },
+  {
+   "fieldname": "pcc_construction_1",
+   "fieldtype": "Data",
+   "label": "PCC Construction 1"
+  },
+  {
+   "fieldname": "pcc_construction_2",
+   "fieldtype": "Data",
+   "label": "PCC Construction 2"
+  },
+  {
+   "fieldname": "pcc_construction_3",
+   "fieldtype": "Data",
+   "label": "PCC Construction 3 "
+  },
+  {
+   "fieldname": "degree_of_enclosure_protection",
+   "fieldtype": "Data",
+   "label": "Degree of Enclosure Protection"
+  },
+  {
+   "fieldname": "cable_entry",
+   "fieldtype": "Data",
+   "label": "Cable Entry"
+  },
+  {
+   "fieldname": "painting",
+   "fieldtype": "Data",
+   "label": "Painting"
+  },
+  {
+   "fieldname": "finish",
+   "fieldtype": "Data",
+   "label": "Finish"
+  },
+  {
+   "fieldname": "colour_shade",
+   "fieldtype": "Data",
+   "label": "Colour Shade"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 14:12:05.315637",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "PCC",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

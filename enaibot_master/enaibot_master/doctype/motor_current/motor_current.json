@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-16 12:42:48.952047",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "kw",
+  "amp",
+  "number_of_pole",
+  "ie1_percent",
+  "ie2_percent",
+  "ie3_percent",
+  "speed_rpm"
+ ],
+ "fields": [
+  {
+   "fieldname": "kw",
+   "fieldtype": "Int",
+   "label": "Kw"
+  },
+  {
+   "fieldname": "amp",
+   "fieldtype": "Int",
+   "label": "Amp"
+  },
+  {
+   "fieldname": "number_of_pole",
+   "fieldtype": "Int",
+   "label": "Number of Pole"
+  },
+  {
+   "fieldname": "ie1_percent",
+   "fieldtype": "Int",
+   "label": "Ie1 Percent"
+  },
+  {
+   "fieldname": "ie2_percent",
+   "fieldtype": "Int",
+   "label": "Ie2 Percent"
+  },
+  {
+   "fieldname": "ie3_percent",
+   "fieldtype": "Int",
+   "label": "Ie3 Percent"
+  },
+  {
+   "fieldname": "speed_rpm",
+   "fieldtype": "Int",
+   "label": "Speed Rpm"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 12:44:24.501352",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "Motor Current",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

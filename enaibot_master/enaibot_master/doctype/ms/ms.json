@@ -1,0 +1,196 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 13:59:05.278196",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "catalogue",
+  "manufacturer",
+  "description",
+  "type",
+  "rating",
+  "miscellaneous_1",
+  "miscellaneous_2",
+  "assembly_code",
+  "assembly_list",
+  "assembly_quantity",
+  "user_1",
+  "user_2",
+  "user_3",
+  "text_value",
+  "web_link",
+  "wdblknam",
+  "symbol_2d",
+  "symbol_3d",
+  "recnum",
+  "block_nm",
+  "mounting",
+  "series",
+  "voltage",
+  "id",
+  "no_of_pole",
+  "current_rating"
+ ],
+ "fields": [
+  {
+   "fieldname": "catalogue",
+   "fieldtype": "Data",
+   "label": "Catalogue"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Data",
+   "label": "Manufacturer"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Data",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "miscellaneous_1",
+   "fieldtype": "Data",
+   "label": "Miscellaneous 1"
+  },
+  {
+   "fieldname": "miscellaneous_2",
+   "fieldtype": "Data",
+   "label": "Miscellaneous 2"
+  },
+  {
+   "fieldname": "assembly_code",
+   "fieldtype": "Data",
+   "label": "Assembly Code"
+  },
+  {
+   "fieldname": "assembly_list",
+   "fieldtype": "Data",
+   "label": "Assembly List"
+  },
+  {
+   "fieldname": "assembly_quantity",
+   "fieldtype": "Data",
+   "label": "Assembly Quantity"
+  },
+  {
+   "fieldname": "user_1",
+   "fieldtype": "Data",
+   "label": "User 1"
+  },
+  {
+   "fieldname": "user_2",
+   "fieldtype": "Data",
+   "label": "User 2"
+  },
+  {
+   "fieldname": "user_3",
+   "fieldtype": "Data",
+   "label": "User 3"
+  },
+  {
+   "fieldname": "text_value",
+   "fieldtype": "Data",
+   "label": "Text Value"
+  },
+  {
+   "fieldname": "web_link",
+   "fieldtype": "Data",
+   "label": "Web Link"
+  },
+  {
+   "fieldname": "wdblknam",
+   "fieldtype": "Data",
+   "label": "wdblknam"
+  },
+  {
+   "fieldname": "symbol_2d",
+   "fieldtype": "Data",
+   "label": "Symbol 2D"
+  },
+  {
+   "fieldname": "symbol_3d",
+   "fieldtype": "Data",
+   "label": "Symbol 3D"
+  },
+  {
+   "fieldname": "recnum",
+   "fieldtype": "Int",
+   "label": "Recnum"
+  },
+  {
+   "fieldname": "block_nm",
+   "fieldtype": "Data",
+   "label": "Block Nm"
+  },
+  {
+   "fieldname": "mounting",
+   "fieldtype": "Data",
+   "label": "Mounting"
+  },
+  {
+   "fieldname": "series",
+   "fieldtype": "Data",
+   "label": "Series"
+  },
+  {
+   "fieldname": "voltage",
+   "fieldtype": "Data",
+   "label": "Voltage"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "no_of_pole",
+   "fieldtype": "Data",
+   "label": "No of Pole"
+  },
+  {
+   "fieldname": "current_rating",
+   "fieldtype": "Data",
+   "label": "Current Rating"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 14:03:46.289288",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "MS",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

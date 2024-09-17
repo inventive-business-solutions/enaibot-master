@@ -1,0 +1,166 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id",
+ "creation": "2024-09-16 15:19:19.876207",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "main_supply_lv",
+  "main_supply_lv_variations",
+  "main_supply_lv_phase",
+  "main_supply_mv",
+  "main_supply_mv_variations",
+  "main_supply_mv_phase",
+  "control_supply",
+  "control_supply_unit",
+  "control_supply_unit_variations",
+  "control_supply_unit_phase",
+  "frequency",
+  "field_1",
+  "field_2",
+  "field_3",
+  "field_4",
+  "field_5",
+  "id",
+  "ambient_temperature",
+  "electrical_design_temperature",
+  "seismic_zone",
+  "frequency_variation"
+ ],
+ "fields": [
+  {
+   "fieldname": "main_supply_lv",
+   "fieldtype": "Data",
+   "label": "Main Supply Lv"
+  },
+  {
+   "fieldname": "main_supply_lv_variations",
+   "fieldtype": "Data",
+   "label": "Main Supply Lv Variations"
+  },
+  {
+   "fieldname": "main_supply_lv_phase",
+   "fieldtype": "Data",
+   "label": "Main Supply Lv Phase"
+  },
+  {
+   "fieldname": "main_supply_mv",
+   "fieldtype": "Data",
+   "label": "Main Supply Mv"
+  },
+  {
+   "fieldname": "main_supply_mv_variations",
+   "fieldtype": "Data",
+   "label": "Main Supply Mv Variations"
+  },
+  {
+   "fieldname": "main_supply_mv_phase",
+   "fieldtype": "Data",
+   "label": "Main Supply Mv Phase"
+  },
+  {
+   "fieldname": "control_supply",
+   "fieldtype": "Data",
+   "label": "Control Supply"
+  },
+  {
+   "fieldname": "control_supply_unit",
+   "fieldtype": "Data",
+   "label": "Control Supply Unit"
+  },
+  {
+   "fieldname": "control_supply_unit_variations",
+   "fieldtype": "Data",
+   "label": "Control Supply Unit Variations"
+  },
+  {
+   "fieldname": "control_supply_unit_phase",
+   "fieldtype": "Data",
+   "label": "Control Supply Unit Phase"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Data",
+   "label": "Frequency"
+  },
+  {
+   "fieldname": "field_1",
+   "fieldtype": "Data",
+   "label": "Field 1"
+  },
+  {
+   "fieldname": "field_2",
+   "fieldtype": "Data",
+   "label": "Field 2"
+  },
+  {
+   "fieldname": "field_3",
+   "fieldtype": "Data",
+   "label": "Field 3"
+  },
+  {
+   "fieldname": "field_4",
+   "fieldtype": "Data",
+   "label": "Field 4"
+  },
+  {
+   "fieldname": "field_5",
+   "fieldtype": "Data",
+   "label": "Field 5"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "ambient_temperature",
+   "fieldtype": "Data",
+   "label": "Ambient Temperature"
+  },
+  {
+   "fieldname": "electrical_design_temperature",
+   "fieldtype": "Data",
+   "label": "Electrical Design Temperature"
+  },
+  {
+   "fieldname": "seismic_zone",
+   "fieldtype": "Data",
+   "label": "Seismic Zone"
+  },
+  {
+   "fieldname": "frequency_variation",
+   "fieldtype": "Data",
+   "label": "Frequency Variation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-16 15:22:19.641810",
+ "modified_by": "Administrator",
+ "module": "Enaibot Master",
+ "name": "System Supply",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
